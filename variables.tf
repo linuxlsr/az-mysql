@@ -8,3 +8,4 @@ variable "administrator_login_password" {}
 variable "ssl_enforcement" {
   default = true
 }
+variable "db_storage_mb" {}
