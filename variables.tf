@@ -9,3 +9,5 @@ variable "ssl_enforcement" {
   default = true
 }
 variable "db_storage_mb" {}
+variable "backup_retention_days" {}
+variable "geo_redundant_backup_enabled" {}
